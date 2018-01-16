@@ -1,0 +1,20 @@
+Para tarea 1:
+
+preg 2:
+
+dominio del problema: usar
+
+generalizacion y de agregacion(pertenencia)
+
+ej. precio es parte del libro: (graficamente)
+
+precio ---<> libro
+
+
+preg 3: (solo) (solo dibujo)
+diagrama de caso de uso del sistema
+
+
+(include: cuando un caso de uso es parte de otro caso de uso, se va a usar obligatoriamente)
+
+(extend: que solo en cierto contexto se usa, no es obligatorio usarlo)
