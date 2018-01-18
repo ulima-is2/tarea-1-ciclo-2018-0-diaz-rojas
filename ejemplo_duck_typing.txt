@@ -1,0 +1,42 @@
+#generalizacion clasica por medio de herencia:
+
+class serviviente:
+	def reproducir(self):
+		print("reproducir")
+
+class serhumano (serviviente):
+	def reproducir(self):
+		print("reproducir sexualmente")
+
+
+class lombriz (serviviente):
+	def reproducir(self):
+		print("reproducir asexualmente")
+
+
+
+
+#generalizacion por duck typing:
+
+
+class serhumano (serviviente):
+	def reproducir(self):
+		print("reproducir sexualmente")
+
+
+class lombriz (serviviente):
+	def reproducir(self):
+		print("reproducir asexualmente")
+
+
+#si a uno se le aumenta un parametro, es sobrecarga y ya no se puede hacer duck typing:
+
+
+class serhumano (serviviente):
+	def reproducir(self, pareja):
+		print("reproducir sexualmente")
+
+
+class lombriz (serviviente):
+	def reproducir(self):
+		print("reproducir asexualmente")

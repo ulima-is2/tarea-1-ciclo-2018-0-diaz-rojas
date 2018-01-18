@@ -1,0 +1,28 @@
+class perro:
+	def hacer_sonido(self):
+		print("guau")
+
+class gato:
+	def hacer_sonido(self):
+		print("miau")
+
+class pato:
+	def hacer_sonido(self):
+		print("quack")
+
+###########################################
+
+def jugar(animal):
+	animal1.hacer_sonido()
+
+#########################################		
+
+def main():
+	animal1 = perro()
+	jugar(animal1)
+
+	animal2 = gato()
+	jugar(animal2)
+
+if __name__ == '__main__':
+	main()
