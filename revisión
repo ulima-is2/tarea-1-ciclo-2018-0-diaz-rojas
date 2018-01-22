@@ -1,0 +1,18 @@
+P1:3
+P2:1
+P3:5
+P4:4
+Nota:13
+
+P1
+En Gherkin, en vez de poner varios when debe colocar ands o poner la respuesta del sistema.
+P2
+Por que generalización si solamente hay un hijo?
+Las listas no son entidades.
+Hay relaciones que no estan definidas como agregación o generalización.
+Faltan algunas entidades clave (como los estados).
+P3
+Bien el diagrama, pero tratar de que no se ve "enmarañado".
+P4
+Una Entidad no es ListaJugadores (lo arrastra).
+Poner dirección en las relaciones para un mejor entendimiento.
